@@ -8,10 +8,11 @@
     <form method="post" action="{:U('Admin/Menu/doAdd')}" enctype="multipart/form-data">
         <dl>
             <dt>菜单分类：</dt>
-            <dd><select name="pid" value="{$info.pid}">
+            <dd><select name="pid">
+                <option value="0">--选择主菜单--</option>
                 <!-- volist 作用：循环输出数组 -->
                 <volist name="mainList" id="id">
-                    <option value="{$info.id}">{$info.name}</option>
+                    <option value="{$id.id}">{$id.name}</option>
                 </volist>
             </select></dd>
         </dl>
@@ -21,9 +22,10 @@
         </dl>
         <dl>
             <dt>菜单类型：</dt>
-            <dd><input type="text" name="type" value="" class="w200" /></dd>
+            <dd><input type="radio" name="type" value="url" checked>链接&nbsp;&nbsp;
+                <input type="radio" name="type" value="click">事件</dd>
         </dl>
-        <7dl>
+        <dl>
             <dt>菜单值：</dt>
             <dd><input type="text" name="value" value="" class="w200" /></dd>
         </dl>

@@ -4,12 +4,78 @@
  */
 class MenuAction extends HomeAction
 {
+    private function get_token(){
+        $ch = curl_init();
+        $appid = D('Setting')->where("skey='appid'")->getField('svalue');
+        $appsecret = D('Setting')->where("skey='appsecrect'")->getField('svalue');
+
+        $url = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.$appid.'&secret='.$appsecret;
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+        curl_setopt($ch, CURLOPT_RETURNTRANSTER, 1);
+        print_r(curl_exec($ch));exit;
+        curl_close($ch);
+        $result = json_decode($result, true);
+
+        //print_r($result);
+    }
+    public function createMenu(){
+
+        $token = $this->get_token();exit;
+        $ch = curl_init();
+        $token = 'test';
+        $url = 'https://api.weixin.qq.com/cgi-bin/menu/create?access_token='.$token;
+        $data = ' {
+     "button":[
+     {  
+          "type":"click",
+          "name":"今日歌曲",
+          "key":"V1001_TODAY_MUSIC"
+      },
+      {
+           "type":"click",
+           "name":"歌手简介",
+           "key":"V1001_TODAY_SINGER"
+      },
+      {
+           "name":"菜单",
+           "sub_button":[
+           {    
+               "type":"view",
+               "name":"搜索",
+               "url":"http://www.soso.com/"
+            },
+            {
+               "type":"view",
+               "name":"视频",
+               "url":"http://v.qq.com/"
+            },
+            {
+               "type":"click",
+               "name":"赞一下我们",
+               "key":"V1001_GOOD"
+            }]
+       }]
+ }';
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+        curl_setopt($ch, CURLOPT_POST, 1);//发送一个post请求
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);//post提交的数据包
+        curl_setopt($ch, CURLOPT_TIMEOUT, 30);//设置限制时间
+        curl_setopt($ch, CURLOPT_HEADER, 0);//显示返回的header区域内容
+        curl_setopt($ch, CURLOPT_RETURNTRANSTER, 1);
+        $result = curl_exec($ch);
+        curl_close($ch);
+        $result = json_decode($result, true);
+    }
     /**
      * get main menu list
      */
     public function get_main_list()
     {
-        $list = D('Menu')->select();
+        $list = D('Menu')->where('pid=0')->select();
         return $list;
     }
 
@@ -18,46 +84,12 @@ class MenuAction extends HomeAction
      */
     public function ls()
     {
-        //排序
-        if(!empty($_GET['sort'])){
-            if($_GET['type'] == '1'){
-                $type = 'asc';
-                $type_num = '0';
-            }else{
-                $type = 'desc';
-                $type_num = '1';
-            }
-            $sort = $_GET['sort'].' '.$type;
-            $this->assign('type', $type_num);
-        }else{
-            $sort = 'id desc';
-            $this->assign('type', '1');
+        $list = D('Menu')->where('pid=0')->order('sort desc')->select();
+        foreach($list as $k=>$v){
+            $list[$k]['list'] = D('Menu')->where('pid='.$v['id'])->order('sort desc')->select();
         }
-
-        //搜索
-        $map = array();
-        if (IS_POST) {
-           $search = $this->_post('search');
-        }       
-        if($search){
-            $map['name'] = array('like',"%{$search}%");
-        }
-
-        $pid = $this->_get('pid');
-        $pid = ($pid) ? $pid : '0';
-        $map['pid'] = array('eq', $pid);
-
-        //分页
-        $count = D('Menu')->where($map)->count();
-        $page = page($count);
-        
-
-        $list = D('Menu')->where($map)->order($sort)->limit($page->firstRow, $page->listRows)->select();
-        //print_r(D('Article')->getLastSQL());
 
         $this->assign('list', $list);
-        $this->assign('pages', $page->show());
-        $this->assign('pid', $pid);
         $this->display();
     }
 

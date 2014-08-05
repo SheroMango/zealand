@@ -12,38 +12,34 @@ class SettingAction extends HomeAction {
      */
 
     public function set()
-
     {
 
         $setObj = D('Setting');
-
-        $data = $this->_post();
-
-        if(empty($data)){
-            $setList = $setObj->select();
-            foreach($setList as $k=>$v){
-                $list[$v['skey']] = $v['svalue'];
-
-            }
-            $this->assign($list);
-            $this->display();
-            exit;
+        $setList = $setObj->select();
+        foreach($setList as $k=>$v){
+            $list[$v['skey']] = $v['svalue'];
         }
+        $this->assign('list', $list);
+        $this->assign('url_api', U('Wx/api'));
+        $this->display();
+    }
+
+    /**
+     * doSet
+     */
+    public function doSet(){
+        $data = $_POST;
         foreach($data as $k=>$v){
-
-            $map['skey'] = array('eq', $k);
-            $result = $setObj->where($map)->find();
-            //print_r($setObj->getLastSQL());exit;
+            $add['skey'] = $k;
+            $add['svalue'] = $v;
+            $result = D('Setting')->where("skey='".$k."'")->find();
             if(empty($result)){
-                $data = array('skey'=>$k,'svalue'=>$v);
-                $setObj->add($data);
+                D('Setting')->add($add);
             }else{
-                $setObj->where($map)->setField('svalue',$v);
+                D('Setting')->save($add);
             }
-
-
         }
-        $this->success('更新成功');
+        $this->success("操作成功");
     }
 
 

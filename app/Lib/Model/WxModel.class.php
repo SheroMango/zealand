@@ -21,23 +21,6 @@ class WxModel extends Model
                 <FromUserName><![CDATA[%s]]></FromUserName>
                 <CreateTime>%s</CreateTime>
                 <MsgType><![CDATA[%s]]></MsgType>";
-
-        // if($type == "text"){
-        //     $tpl = "<Content><![CDATA[%s]]></Content>
-        //         <FuncFlag>0</FuncFlag>";
-        // }elseif($type == "txp"){
-        //     $tpl = "<ArticleCount>1</ArticleCount>
-        //         <Articles>
-        //         <item>
-        //         <Title><![CDATA[%s]]></Title> 
-        //         <Description><![CDATA[%s]]></Description>
-        //         <PicUrl><![CDATA[%s]]></PicUrl>
-        //         <Url><![CDATA[%s]]></Url>
-        //         </item>
-        //         </Articles>";
-        // }else{
-        //     $tpl = '';
-        // }
         return $tpl;
     }
 

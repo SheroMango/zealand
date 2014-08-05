@@ -11,36 +11,29 @@
   
   <!--编辑表单 BEGIN-->
   <div class="edit">
-      <form action="{:U('Admin/Setting/set')}" method="post" enctype="multipart/form-data">
+      <form action="{:U('Admin/Setting/doSet')}" method="post" enctype="multipart/form-data">
       <dl>
-        <dt>网站名称：</dt>
+        <dt>接口地址：</dt>
         <dd>
-          <input type="text" name="site_name"  value="{$site_name}" />
+          {$url_api}
         </dd>  
       </dl>
       <dl>
-        <dt>备案号：</dt>
+        <dt>接口凭证：</dt>
         <dd>
-          <input name="site_icp" type="text" value="{$site_icp}" />
-          <p class="tips">例如：京ICP备04000001号</p>
+          <input type="text" name="token" value="{$list.token}"  class="w250"/>
         </dd>
       </dl>
       <dl>
-        <dt>客服电话：</dt>
+        <dt>APPID: </dt>
         <dd>
-          <input type="text" name="service_tel"  value="{$service_tel}" class="w250" />
+          <input type="text" name="appid"  value="{$list.appid}" class="w250" />
         </dd>
       </dl>
       <dl>
-        <dt>客服QQ：</dt>
+        <dt>APPSECRECT: </dt>
         <dd>
-          <input type="text" name="service_qq" value="{$service_qq}" />
-        </dd>
-      </dl>
-      <dl>
-        <dt>客服email：</dt>
-        <dd>
-          <input type="text" name="service_email"  value="{$service_email}" />
+          <input type="text" name="appsecrect" value="{$list.appsecrect}" class="w250"/>
         </dd>
       </dl>
       <dl>

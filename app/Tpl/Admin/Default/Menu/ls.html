@@ -11,6 +11,7 @@
  <!--工具栏 BEGIN-->
   <div class="toolbar">
       <a href="{:U('Admin/Menu/add')}" class="btn"><span>添加菜单</span></a>
+      <a href="{:U('Admin/Menu/createMenu')}" class="btn"><span>更新菜单</span></a>
   </div>
   <!--END工具栏 BEGIN-->
 
@@ -49,6 +50,7 @@
             </tr>
           <else />
           <volist name="list" id="vo">
+
               <tr>
                 <td><input type="checkbox" name="id[]" value="{$vo.id}"></td>
                 <td>{$vo.name}</td>
@@ -60,6 +62,23 @@
                     <a href="{:U('Admin/Menu/del',array('id'=>$vo[id]))}">删除</a>
                 </td>
               </tr>
+
+            <notempty name="vo['list']">
+              <volist name="vo['list']" id="voo">
+                <tr>
+                <td><input type="checkbox" name="id[]" value="{$voo.id}"></td>
+                <td>----{$voo.name}</td>
+                <td>{$voo.type}</td>
+                <td>{$voo.value}</td>
+                <td>{$voo.sort}</td>
+                <td>
+                    <a href="{:U('Admin/Menu/edit',array('id'=>$voo[id]))}" class="mr10">编辑</a>
+                    <a href="{:U('Admin/Menu/del',array('id'=>$voo[id]))}">删除</a>
+                </td>
+              </tr>
+              </volist>
+            </notempty>
+
             </volist>
           </empty>
         </tbody>

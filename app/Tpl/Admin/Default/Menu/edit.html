@@ -8,11 +8,12 @@
     <form method="post" action="{:U('Admin/Menu/doEdit')}" enctype="multipart/form-data">
         <input type="hidden" name="id" value="{$info.id}">
         <dl>
-            <dt>新闻分类：</dt>
-            <dd><select name="id" value="{$info.id}">
+            <dt>菜单分类：</dt>
+            <dd><select name="pid">
+                <option value="0">--选择主菜单--</option>
                 <!-- volist 作用：循环输出数组 -->
-                <volist name="mainList" id="name">
-                    <option value="{$info.id}" <eq name="info[id]" value="$info[id]">selected</eq>>{$info.name}</option>
+                <volist name="mainList" id="id">
+                    <option value="{$id.id}"<eq name="info[pid]" value="$id[id]">selected</eq>>{$id.name}</option>
                 </volist>
             </select></dd>
         </dl>
@@ -22,7 +23,8 @@
         </dl>
         <dl>
             <dt>菜单类型：</dt>
-            <dd><input type="text" name="type" class="w200" value="{$info.type}" /></dd>
+            <dd><input type="radio" name="type" value="url" <eq name="info['type']" value="url">checked</eq>>链接&nbsp;&nbsp;
+                <input type="radio" name="type" value="click" <eq name="info['type']" value="click">checked</eq>>事件</dd>
         </dl>
         <dl>
             <dt>菜单值：</dt>
