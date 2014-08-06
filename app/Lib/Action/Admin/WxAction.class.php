@@ -14,6 +14,7 @@ class WxAction extends BaseAction
 	{
 		//实例化一个Wx模型
 		$wxObj = D('Wx');
+		$wxObj->valid();
 		$wxObj->responseMsg();
 	}
 }

@@ -1,0 +1,1293 @@
+[ 2014-08-06T10:39:08+08:00 ] 127.0.0.1 /zealand/
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002824s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.017871s ]
+INFO: [ view_template ] --END-- [ RunTime:0.018006s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042856s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002283s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002886s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002969s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012984s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004259s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004370s ]
+
+[ 2014-08-06T10:39:15+08:00 ] 127.0.0.1 /zealand/index.php?g=Home
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002986s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008144s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008323s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037447s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001801s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.007040s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003408s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.006504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019532s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002805s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002939s ]
+
+[ 2014-08-06T10:39:21+08:00 ] 127.0.0.1 /zealand/index.php?g=admin&m=Public&a=login
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008733s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008893s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038914s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001477s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001253s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001134s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005659s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001763s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001940s ]
+
+[ 2014-08-06T10:39:43+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Public&a=doLogin
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003680s ]
+SQL: SHOW COLUMNS FROM `z_user` [ RunTime:0.190848s ]
+SQL: SELECT * FROM `z_user` WHERE ( name='mango' AND password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.081993s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.048879s ]
+INFO: [ view_template ] --END-- [ RunTime:0.049094s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.091055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091265s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004023s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004328s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003080s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015523s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002449s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002557s ]
+
+[ 2014-08-06T10:39:45+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Index&a=index
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+
+[ 2014-08-06T10:39:45+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Setting&a=set
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003942s ]
+SQL: SHOW COLUMNS FROM `z_setting` [ RunTime:0.094851s ]
+SQL: SELECT * FROM `z_setting`  [ RunTime:0.005987s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005153s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005267s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031999s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003790s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003356s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002652s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012744s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002682s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002771s ]
+
+[ 2014-08-06T10:54:48+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Route&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005922s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\zealand\app\Lib\Action\Admin\RouteAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `z_route` [ RunTime:0.126392s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `z_route` LIMIT 1   [ RunTime:0.011417s ]
+SQL: SELECT * FROM `z_route` LIMIT 0,5   [ RunTime:0.004129s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006066s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006193s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.050677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050806s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002444s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004477s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002807s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012438s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002863s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002966s ]
+
+[ 2014-08-06T10:54:49+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002163s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.086639s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.002585s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.000860s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.000781s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.000837s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002133s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002243s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021272s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001065s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001308s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001244s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005737s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001827s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001961s ]
+
+[ 2014-08-06T11:00:03+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=edit&id=7
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002677s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.009879s ]
+SQL: SELECT * FROM `z_menu` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.003907s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 )  [ RunTime:0.000899s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005451s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005574s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\wamp\www\zealand\app\Runtime\Cache\Admin\d6428d245d86bc5395da0515965b2170.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\d6428d245d86bc5395da0515965b2170.php 第 43 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\wamp\www\zealand\app\Runtime\Cache\Admin\d6428d245d86bc5395da0515965b2170.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\d6428d245d86bc5395da0515965b2170.php 第 43 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\wamp\www\zealand\app\Runtime\Cache\Admin\d6428d245d86bc5395da0515965b2170.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\d6428d245d86bc5395da0515965b2170.php 第 43 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.070174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070272s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001948s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001654s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001499s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007052s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002027s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002140s ]
+
+[ 2014-08-06T11:00:03+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=edit&id=7
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004288s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.017875s ]
+SQL: SELECT * FROM `z_menu` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.001547s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 )  [ RunTime:0.001245s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004548s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004659s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\wamp\www\zealand\app\Runtime\Cache\Admin\d6428d245d86bc5395da0515965b2170.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\d6428d245d86bc5395da0515965b2170.php 第 43 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\wamp\www\zealand\app\Runtime\Cache\Admin\d6428d245d86bc5395da0515965b2170.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\d6428d245d86bc5395da0515965b2170.php 第 43 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\wamp\www\zealand\app\Runtime\Cache\Admin\d6428d245d86bc5395da0515965b2170.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\d6428d245d86bc5395da0515965b2170.php 第 43 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.029086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029200s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003462s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004879s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002279s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012882s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002441s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002546s ]
+
+[ 2014-08-06T11:00:36+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Setting&a=set
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002907s ]
+SQL: SHOW COLUMNS FROM `z_setting` [ RunTime:0.011337s ]
+SQL: SELECT * FROM `z_setting`  [ RunTime:0.002662s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004057s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004174s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019877s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002125s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.007842s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003737s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018338s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003103s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003212s ]
+
+[ 2014-08-06T11:24:06+08:00 ] 127.0.0.1 /zealand/
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.017457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017619s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008339s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008469s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.043524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044079s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003627s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004051s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.011739s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025709s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003646s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003757s ]
+
+[ 2014-08-06T11:24:14+08:00 ] 127.0.0.1 /zealand/index.php?g=Home
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002487s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.012278s ]
+INFO: [ view_template ] --END-- [ RunTime:0.012446s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033743s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004690s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.006711s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003348s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017718s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002446s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002554s ]
+
+[ 2014-08-06T11:24:20+08:00 ] 127.0.0.1 /zealand/index.php?g=admin
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004053s ]
+
+[ 2014-08-06T11:24:21+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Setting&a=set
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003163s ]
+SQL: SHOW COLUMNS FROM `z_setting` [ RunTime:0.023105s ]
+SQL: SELECT * FROM `z_setting`  [ RunTime:0.005571s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.016198s ]
+INFO: [ view_template ] --END-- [ RunTime:0.016363s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.049883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050011s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.015471s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004476s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003434s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027080s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004896s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005033s ]
+
+[ 2014-08-06T13:46:23+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004637s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.112405s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.002276s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.000666s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.000626s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.001778s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006416s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006531s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.158595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158682s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002944s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.020206s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004507s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003277s ]
+
+[ 2014-08-06T13:51:29+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007438s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.006111s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.003108s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.000589s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.000844s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.000549s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006169s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006302s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.047666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047796s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005001s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004062s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004058s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.022392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.035844s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003098s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003202s ]
+
+[ 2014-08-06T13:59:03+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.008909s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.009991s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.001938s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.001072s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.001396s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.013577s ]
+INFO: [ view_template ] --END-- [ RunTime:0.013707s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.042495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042592s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002758s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002217s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002537s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010759s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004342s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004565s ]
+
+[ 2014-08-06T14:02:18+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005019s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.005890s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.003135s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.001203s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.001520s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.003052s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.011209s ]
+INFO: [ view_template ] --END-- [ RunTime:0.011345s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.035854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035949s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003532s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002331s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003044s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013422s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003081s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003169s ]
+
+[ 2014-08-06T14:10:07+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004032s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.010834s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.001383s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.006124s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.003596s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.003533s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008826s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008980s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.057129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057238s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002427s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.006788s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002880s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016681s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004257s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004371s ]
+
+[ 2014-08-06T14:13:25+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002464s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.005612s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.002829s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.000978s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.000674s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.001023s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.009601s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009787s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.040563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040651s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002231s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001495s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007326s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002453s ]
+
+[ 2014-08-06T14:21:20+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005489s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.010612s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.007194s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.001771s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.001114s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.001179s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008380s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008517s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.029309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029402s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004674s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005989s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.005285s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020066s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004591s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004697s ]
+
+[ 2014-08-06T14:21:51+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.017313s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.002090s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.002091s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.001494s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.001128s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000965s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001062s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.034820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034948s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.006227s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004134s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004366s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018818s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003145s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003253s ]
+
+[ 2014-08-06T14:24:00+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003770s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.016531s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.001207s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.002420s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.000773s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.000636s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007226s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007355s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.033969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034064s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003770s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003007s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.005620s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015157s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002937s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003041s ]
+
+[ 2014-08-06T14:25:17+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002733s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.018612s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.002051s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.004097s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.000817s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.000935s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001220s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001331s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.037120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037243s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004048s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003212s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004112s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015035s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003473s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003564s ]
+
+[ 2014-08-06T14:26:37+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002448s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.005478s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.003093s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.000662s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.000634s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.000625s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005878s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005994s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.032487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032579s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001771s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001539s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002401s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008693s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002419s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002526s ]
+
+[ 2014-08-06T14:26:51+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.014130s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.002031s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.001872s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.003083s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.001003s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.010082s ]
+INFO: [ view_template ] --END-- [ RunTime:0.010254s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.030866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030961s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001736s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001655s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001503s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007065s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002042s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002133s ]
+
+[ 2014-08-06T14:27:52+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.007403s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.003099s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.001776s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.001849s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.003255s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001879s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002075s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022279s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000859s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000775s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000648s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003392s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2014-08-06T14:45:07+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Setting&a=set
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006203s ]
+SQL: SHOW COLUMNS FROM `z_setting` [ RunTime:0.012021s ]
+SQL: SELECT * FROM `z_setting`  [ RunTime:0.002621s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005053s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005209s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024054s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002620s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002702s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001835s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009720s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002034s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002141s ]
+
+[ 2014-08-06T14:45:09+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Setting&a=doSet
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `z_setting` [ RunTime:0.014678s ]
+SQL: SELECT * FROM `z_setting` WHERE ( skey='token' ) LIMIT 1   [ RunTime:0.003502s ]
+SQL: UPDATE `z_setting` SET `svalue`='小01sdf ' WHERE ( `skey` = 'token' ) [ RunTime:0.095060s ]
+SQL: SELECT * FROM `z_setting` WHERE ( skey='appid' ) LIMIT 1   [ RunTime:0.000395s ]
+SQL: UPDATE `z_setting` SET `svalue`='12301' WHERE ( `skey` = 'appid' ) [ RunTime:0.000525s ]
+SQL: SELECT * FROM `z_setting` WHERE ( skey='appsecrect' ) LIMIT 1   [ RunTime:0.001248s ]
+SQL: UPDATE `z_setting` SET `svalue`='32101' WHERE ( `skey` = 'appsecrect' ) [ RunTime:0.000891s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002209s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002316s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027664s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001480s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001689s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001590s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006914s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001266s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2014-08-06T14:45:11+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Setting&a=set
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+SQL: SHOW COLUMNS FROM `z_setting` [ RunTime:0.008544s ]
+SQL: SELECT * FROM `z_setting`  [ RunTime:0.002341s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001406s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001541s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012565s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000810s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001272s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000739s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003943s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001157s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2014-08-06T14:45:15+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Setting&a=set
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `z_setting` [ RunTime:0.005991s ]
+SQL: SELECT * FROM `z_setting`  [ RunTime:0.007898s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001632s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001841s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020319s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002793s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001032s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000903s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006163s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001278s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2014-08-06T15:46:43+08:00 ] 127.0.0.1 /zealand/
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003067s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.023257s ]
+INFO: [ view_template ] --END-- [ RunTime:0.023433s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029714s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002188s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001918s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002582s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009362s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002522s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002630s ]
+
+[ 2014-08-06T15:46:56+08:00 ] 127.0.0.1 /zealand/
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003988s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005460s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005663s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022047s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002391s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002644s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001603s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008713s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001967s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002053s ]
+
+[ 2014-08-06T15:47:09+08:00 ] 127.0.0.1 /zealand/index.php?g=Home
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002746s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004236s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004365s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026723s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001707s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002512s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008775s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002017s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002120s ]
+
+[ 2014-08-06T15:47:18+08:00 ] 127.0.0.1 /zealand/index.php?g=admin&m=Public&a=login
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007002s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007144s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027551s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001014s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000993s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001484s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005025s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001548s ]
+
+[ 2014-08-06T15:47:32+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Public&a=doLogin
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+SQL: SHOW COLUMNS FROM `z_user` [ RunTime:0.006868s ]
+SQL: SELECT * FROM `z_user` WHERE ( name='mango' AND password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.003668s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002246s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002382s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013812s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001184s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001747s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000959s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005572s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001317s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2014-08-06T15:47:33+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Index&a=index
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+
+[ 2014-08-06T15:47:33+08:00 ] ERR: (ThinkException) 无法加载模块:User
+[ 2014-08-06T15:47:34+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Setting&a=set
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+SQL: SHOW COLUMNS FROM `z_setting` [ RunTime:0.078626s ]
+SQL: SELECT * FROM `z_setting`  [ RunTime:0.003648s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005881s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006021s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017494s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000852s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000958s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000841s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004164s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001914s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002035s ]
+
+[ 2014-08-06T17:16:13+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002608s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.031825s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.003374s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.000975s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.000700s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.000612s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005622s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005750s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.031813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031906s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002741s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002028s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002080s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008938s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003044s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003143s ]
+
+[ 2014-08-06T17:16:17+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.007319s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.003203s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.001329s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.001321s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.001120s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002346s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002449s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.024651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024832s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001034s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000911s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000901s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004575s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001630s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001738s ]
+
+[ 2014-08-06T17:16:22+08:00 ] 127.0.0.1 /zealand/index.php?g=Admin&m=Menu&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\zealand\app\Conf\Admin\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `z_menu` [ RunTime:0.006270s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=0 ) ORDER BY sort desc  [ RunTime:0.004358s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=7 ) ORDER BY sort desc  [ RunTime:0.000633s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=3 ) ORDER BY sort desc  [ RunTime:0.002469s ]
+SQL: SELECT * FROM `z_menu` WHERE ( pid=8 ) ORDER BY sort desc  [ RunTime:0.001461s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003872s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 67 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 68 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 69 行.
+NOTIC: [8] Undefined variable: type E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 87 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 98 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 99 行.
+NOTIC: [8] Undefined variable: pages E:\wamp\www\zealand\app\Runtime\Cache\Admin\53a3bc80627bc7fdfec7d8c8758b15c5.php 第 112 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.023607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023702s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001233s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001184s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001127s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004820s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001236s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001322s ]
+

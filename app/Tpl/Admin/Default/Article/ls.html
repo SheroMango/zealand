@@ -55,9 +55,10 @@
                 <td>{$vo.sort}</td>
                 <td>{$vo[time_modify]|date="Y-m-d H:i", ###}</td>
                 <td>
-                    <a href="{:U('Admin/Article/ls',array('pid'=>$vo[id]))}" class="mr10">子文章</a>
-                    <a href="{:U('Admin/Article/info',array('id'=>$vo[id]))}" class="mr10">编辑</a>
-                    <a href="{:U('Admin/Article/del',array('id'=>$vo[id]))}">删除</a>
+                    <a href="{:U('Admin/Article/ls',array('pid'=>$vo['id']))}" class="mr10">子文章</a>
+                    <a href="{:U('Admin/Article/info',array('id'=>$vo['id']))}" class="mr10">编辑</a>
+                    <a href="{:U('Admin/Article/del',array('id'=>$vo['id']))}">删除</a>
+                    
                 </td>
               </tr>
             </volist>

@@ -14,50 +14,47 @@ class MenuAction extends HomeAction
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
         curl_setopt($ch, CURLOPT_RETURNTRANSTER, 1);
-        print_r(curl_exec($ch));exit;
+        $result = curl_exec($ch);
         curl_close($ch);
         $result = json_decode($result, true);
-
-        //print_r($result);
+        return $result['access_token'];
     }
+
+
     public function createMenu(){
 
-        $token = $this->get_token();exit;
+        //$token = $this->get_token();
         $ch = curl_init();
         $token = 'test';
         $url = 'https://api.weixin.qq.com/cgi-bin/menu/create?access_token='.$token;
-        $data = ' {
-     "button":[
-     {  
-          "type":"click",
-          "name":"今日歌曲",
-          "key":"V1001_TODAY_MUSIC"
-      },
-      {
-           "type":"click",
-           "name":"歌手简介",
-           "key":"V1001_TODAY_SINGER"
-      },
-      {
-           "name":"菜单",
-           "sub_button":[
-           {    
-               "type":"view",
-               "name":"搜索",
-               "url":"http://www.soso.com/"
-            },
-            {
-               "type":"view",
-               "name":"视频",
-               "url":"http://v.qq.com/"
-            },
-            {
-               "type":"click",
-               "name":"赞一下我们",
-               "key":"V1001_GOOD"
-            }]
-       }]
- }';
+        $data = D('Menu')->where('pid=0')->order('sort desc')->select();
+        foreach($data as $k=>$v){
+            $subList = D('Menu')->where('pid='.$v['id'])->order('sort desc')->select();
+            if(!empty($subList)){
+                $list[$k]['name'] = urlencode($v['name']);
+                foreach($subList as $k2=>$v2){
+                    $newSubList[$k2]['type'] = $v2['type'];
+                    $newSubList[$k2]['name'] = urlencode($v2['name']);
+                    if($v2['type'] == 'view'){
+                        $newSubList[$k2]['url'] = $v2['value'];
+                    }else{
+                        $newSubList[$k2]['key'] = urlencode($v2['value']);
+                    }
+
+                    $list[$k]['sub_button'] = $newSubList;
+                }
+            }else{
+                $list[$k]['type'] = $v['type'];
+                $list[$k]['name'] = urlencode($v['name']);
+                if($v['type'] == 'view'){
+                    $list[$k]['url'] = $v['value'];
+                }else{
+                    $list[$k]['key'] = urlencode($v['value']);
+                }
+            }
+
+        }
+        $list = urldecode(json_encode(array('button'=>$list)));
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
@@ -69,6 +66,11 @@ class MenuAction extends HomeAction
         $result = curl_exec($ch);
         curl_close($ch);
         $result = json_decode($result, true);
+        if($result['errcode'] == '0'){
+            $this->success('菜单更新成功');
+        }else{
+            $this->error('菜单更新失败');
+        }
     }
     /**
      * get main menu list
