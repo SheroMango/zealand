@@ -5,7 +5,7 @@
  * @version 2013-08-28
  */
 
-class SettingAction extends HomeAction {
+class SettingAction extends AdminAction{
 
    /**
      * 处理：编辑配置文件
@@ -106,7 +106,6 @@ class SettingAction extends HomeAction {
         );
 
         $userObj->where('id='.$_SESSION['uid'])->save($update);
-        print_r($userObj->getLastSQL());exit;
 
         $this->success('密码修改成功');
 

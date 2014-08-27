@@ -6,7 +6,5 @@
  */
 return array(
 	DEFAULT_THEME => 'Default',
-    // 'TMPL_ACTION_ERROR' => 'Public:success',
-    // 'TMPL_ACTION_SUCCESS' => 'Public:success',
 );
 ?>
